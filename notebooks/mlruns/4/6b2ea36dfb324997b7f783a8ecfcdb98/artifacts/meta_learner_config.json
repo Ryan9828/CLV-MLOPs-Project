@@ -1,0 +1,12 @@
+{
+  "coefficients": {
+    "lgbm": -0.16165558136753133,
+    "xgb": 1.1985737516478532
+  },
+  "intercept": 0.11324739765439062,
+  "best_alpha": 100.0,
+  "base_models": [
+    "lgbm",
+    "xgb"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "coefficients": {
+    "Ridge": 1.1460490336781242,
+    "lgbm": -0.42594686520808994,
+    "xgb": 0.28016420528502856
+  },
+  "intercept": 7.565349693344956,
+  "best_alpha": 100.0,
+  "base_models": [
+    "Ridge",
+    "lgbm",
+    "xgb"
+  ]
+}

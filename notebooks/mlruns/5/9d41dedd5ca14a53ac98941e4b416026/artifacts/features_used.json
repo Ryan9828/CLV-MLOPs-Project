@@ -1,0 +1,13 @@
+{
+  "features": [
+    "days_since_last_purchase",
+    "customer_age_days",
+    "active_days",
+    "total_orders",
+    "purchase_frequency",
+    "avg_items_per_order",
+    "avg_days_between_orders",
+    "avg_order_value",
+    "avg_item_value"
+  ]
+}
