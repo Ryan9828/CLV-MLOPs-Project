@@ -1,0 +1,45 @@
+artifact_path: /Users/ryanmurray/Desktop/Project_Folder/CLV_Project/CLV-MLOPs-Project/notebooks/mlruns/2/models/m-082c530244574ff8a66398526d5fcd0a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.7.0
+model_id: m-082c530244574ff8a66398526d5fcd0a
+model_size_bytes: 856829
+model_uuid: m-082c530244574ff8a66398526d5fcd0a
+prompts: null
+run_id: fe5b0757af284a6fa4ff8e8a6db4e24b
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "SUM(transactions.Revenue)", "required": true},
+    {"type": "double", "name": "SUM(transactions.Quantity)", "required": true}, {"type":
+    "double", "name": "COUNT(transactions) + MAX(transactions.Quantity)", "required":
+    true}, {"type": "long", "name": "total_orders", "required": true}, {"type": "double",
+    "name": "COUNT(transactions) + MAX(transactions.Revenue)", "required": true},
+    {"type": "long", "name": "COUNT(transactions)", "required": true}, {"type": "double",
+    "name": "purchase_frequency", "required": true}, {"type": "long", "name": "active_days",
+    "required": true}, {"type": "double", "name": "avg_days_between_orders", "required":
+    true}, {"type": "double", "name": "avg_items_per_order", "required": true}, {"type":
+    "double", "name": "avg_order_value", "required": true}, {"type": "double", "name":
+    "MAX(transactions.Revenue)", "required": true}, {"type": "double", "name": "MEAN(transactions.Revenue)",
+    "required": true}, {"type": "double", "name": "MAX(transactions.Quantity) + MEAN(transactions.Revenue)",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-16 03:12:55.169656'

@@ -1,0 +1,15 @@
+feature,importance
+avg_order_value,415
+COUNT(transactions) + MAX(transactions.Quantity),300
+purchase_frequency,293
+SUM(transactions.Revenue),265
+MEAN(transactions.Revenue),261
+total_orders,256
+MAX(transactions.Quantity) + MEAN(transactions.Revenue),237
+MAX(transactions.Revenue),221
+COUNT(transactions) + MAX(transactions.Revenue),172
+SUM(transactions.Quantity),169
+avg_items_per_order,119
+active_days,84
+COUNT(transactions),32
+avg_days_between_orders,24

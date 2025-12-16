@@ -1,0 +1,8 @@
+{
+  "base_models": [
+    "Ridge",
+    "lgbm"
+  ],
+  "instructions": "To reconstruct ensemble: get base model predictions, then use meta_learner.predict(base_predictions)",
+  "meta_learner_artifact": "meta_learner"
+}

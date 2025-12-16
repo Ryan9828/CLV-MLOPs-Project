@@ -1,0 +1,16 @@
+{
+  "SUM(transactions.Revenue)": "0.10283468",
+  "SUM(transactions.Quantity)": "0.19283605",
+  "COUNT(transactions) + MAX(transactions.Quantity)": "0.046432924",
+  "total_orders": "0.037965376",
+  "COUNT(transactions) + MAX(transactions.Revenue)": "0.11259214",
+  "COUNT(transactions)": "0.037003707",
+  "purchase_frequency": "0.04095037",
+  "active_days": "0.04086204",
+  "avg_days_between_orders": "0.030851364",
+  "avg_items_per_order": "0.047871437",
+  "avg_order_value": "0.0995551",
+  "MAX(transactions.Revenue)": "0.10314954",
+  "MEAN(transactions.Revenue)": "0.089470245",
+  "MAX(transactions.Quantity) + MEAN(transactions.Revenue)": "0.017625062"
+}

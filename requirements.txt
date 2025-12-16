@@ -1,0 +1,62 @@
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+
+# Machine Learning
+scikit-learn==1.3.0
+xgboost==2.0.0
+lightgbm==4.0.0
+
+# Hyperparameter Optimization
+optuna==3.3.0
+
+# Experiment Tracking
+mlflow==2.7.1
+
+# API Development (we'll use later)
+fastapi==0.103.1
+uvicorn==0.23.2
+
+# AWS SDK (we'll use later)
+boto3==1.28.57
+
+# Drift Detection
+evidently==0.4.6
+```
+
+**Understanding version pinning:**
+- `==2.0.3` means "exactly version 2.0.3"
+- This ensures anyone installing gets the same versions you used
+
+---
+
+# Part 6: Your First Git Workflow
+
+Let's practice the push/pull cycle:
+
+## Create/Modify Files
+
+1. Create a file called `.gitignore` (tells Git what NOT to track):
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Data files (don't commit large datasets)
+data/raw/*
+!data/raw/.gitkeep
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# MLflow
+mlruns/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/

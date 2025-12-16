@@ -1,0 +1,20 @@
+{
+  "selected_features": [
+    "SUM(transactions.Revenue)",
+    "SUM(transactions.Quantity)",
+    "COUNT(transactions) + MAX(transactions.Quantity)",
+    "total_orders",
+    "COUNT(transactions) + MAX(transactions.Revenue)",
+    "COUNT(transactions)",
+    "purchase_frequency",
+    "active_days",
+    "avg_days_between_orders",
+    "avg_items_per_order",
+    "avg_order_value",
+    "MAX(transactions.Revenue)",
+    "MEAN(transactions.Revenue)",
+    "MAX(transactions.Quantity) + MEAN(transactions.Revenue)"
+  ],
+  "n_features": 14,
+  "feature_selection_method": "voting_ensemble"
+}

@@ -1,0 +1,21 @@
+feature,coefficient,abs_coefficient
+SUM(transactions.Revenue) avg_order_value,981.568585026458,981.568585026458
+SUM(transactions.Quantity) purchase_frequency,-688.6693812141991,688.6693812141991
+total_orders MEAN(transactions.Revenue),-669.5283196151225,669.5283196151225
+total_orders avg_items_per_order,662.7906911348675,662.7906911348675
+total_orders avg_order_value,609.9989498054965,609.9989498054965
+SUM(transactions.Quantity) avg_order_value,-595.7453018728702,595.7453018728702
+SUM(transactions.Quantity) total_orders,-583.205827641968,583.205827641968
+SUM(transactions.Revenue) avg_items_per_order,-567.6641870190084,567.6641870190084
+SUM(transactions.Revenue)^2,-540.4177170074773,540.4177170074773
+SUM(transactions.Revenue) total_orders,536.5845031676722,536.5845031676722
+SUM(transactions.Revenue) MAX(transactions.Revenue),414.6533212024222,414.6533212024222
+SUM(transactions.Revenue) MEAN(transactions.Revenue),-393.0079577062681,393.0079577062681
+SUM(transactions.Revenue) COUNT(transactions) + MAX(transactions.Revenue),390.94964164554875,390.94964164554875
+SUM(transactions.Revenue),389.335694603813,389.335694603813
+COUNT(transactions) MAX(transactions.Revenue),-377.86391652657426,377.86391652657426
+COUNT(transactions) MEAN(transactions.Revenue),346.3494242958012,346.3494242958012
+SUM(transactions.Quantity),344.82596674037796,344.82596674037796
+SUM(transactions.Quantity) MAX(transactions.Revenue),-340.21562780718466,340.21562780718466
+SUM(transactions.Quantity) MEAN(transactions.Revenue),332.3625976265416,332.3625976265416
+avg_order_value,324.9761687450195,324.9761687450195
